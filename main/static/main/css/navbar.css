@@ -1,0 +1,35 @@
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 28px ;
+    color: white;
+  }
+
+.nav-link {
+    
+    font-size: 22px ;
+}
+
+.list-group {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: row;
+	padding-left: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+.list-group-item.active {
+	z-index: 2;
+	color: #fff;
+	background-color: rgb(38, 39, 39);
+	border-color: teal;
+}
+#list-tab {
+  margin: 50px 0 20px 0;
+}
+#list-tab p {
+  margin-bottom: 26px;
+}
+#nav-tabContent p {
+  margin-bottom: 20px;
+}
